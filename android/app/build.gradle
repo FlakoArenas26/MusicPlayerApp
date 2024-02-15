@@ -67,7 +67,7 @@ android {
     // Configuración para nombrar el archivo APK de salida
     applicationVariants.all { variant ->
         variant.outputs.all {
-            outputFileName = "nombre_personalizado_${variant.name}.apk"
+            outputFileName = "Music Player-${variant.name}.apk"
         }
     }
 }
