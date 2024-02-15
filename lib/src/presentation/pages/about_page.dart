@@ -102,7 +102,7 @@ class _AboutPageState extends State<AboutPage> {
               ),
               const SizedBox(height: 32),
               const Text(
-                'music_player',
+                'Music Player',
                 style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
@@ -118,7 +118,7 @@ class _AboutPageState extends State<AboutPage> {
               ),
               const SizedBox(height: 16),
               const Text(
-                'music_player is an open source music player app that is built with Flutter. It is a simple music player app that can play music from your local storage.',
+                'Music Player is an open source music player app that is built with Flutter. It is a simple music player app that can play music from your local storage.',
                 style: TextStyle(
                   fontSize: 16,
                 ),
@@ -149,7 +149,7 @@ class _AboutPageState extends State<AboutPage> {
               ),
               TextButton(
                 onPressed: () {
-                  launchUrlString('mailto:shokhrukhbekdev@gmail.com');
+                  // launchUrlString('mailto:shokhrukhbekdev@gmail.com');
                 },
                 child: const Text("Email"),
               ),
