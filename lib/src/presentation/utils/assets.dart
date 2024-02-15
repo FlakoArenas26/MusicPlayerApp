@@ -1,6 +1,6 @@
 class Links {
   static const String sourceCode =
-      'https://github.com/ShokhrukhbekYuldoshev/music_player';
+      'https://github.com/FlakoArenas26/MusicPlayerApp';
 }
 
 class Assets {
