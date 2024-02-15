@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           drawer: const HomeDrawer(),
           appBar: AppBar(
             backgroundColor: Themes.getTheme().primaryColor,
-            title: const Text('music_player'),
+            title: const Text('Music Player'),
             // search button
             actions: [
               IconButton(
